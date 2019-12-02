@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <span id="rightAnswer">0</span>
+        <span id="countdown">2:00</span>
+        <span id="wrongAnswer">0</span>
+        <div id="question-container" class = "hide">           
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div id="highscoreContainer" class="hide">
+                <h3 id="finalScore"></h3>
+                <input type="text" id="scoreInput">
+                <label for="scoreInput">input your initials</label>
+                <button id="submitScore">submit</button>
+            
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">RESTART</button>
+        </div>
+    </div>
+    <div class="highscoreDiv">  
+        <h2>High Score List</h2>
+        <ul id="highscore-list">highscore list</ul>
+    </div>
+</body>
+</html>
