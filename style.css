@@ -16,6 +16,7 @@ body {
     flex-direction: column;
 }
 
+
 .container {
     width: 800px;
     max-width: 80%;
@@ -113,4 +114,19 @@ body {
 
 .highscoreDiv h2 {
     text-align: center;
+}
+
+#inputInitials {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#highscoreContainer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#scoreInput {
+    margin: 5px 0px;
+    border: 1px solid black;
 }

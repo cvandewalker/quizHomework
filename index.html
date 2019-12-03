@@ -8,7 +8,7 @@
     <script defer src="script.js"></script>
     <title>Quiz App</title>
 </head>
-<body>
+<body id="body">
     <div class="container">
         <span id="rightAnswer">0</span>
         <span id="countdown">2:00</span>
@@ -24,9 +24,11 @@
         </div>
         <div id="highscoreContainer" class="hide">
                 <h3 id="finalScore"></h3>
+                <label for="scoreInput" id="inputInitials">input your initials</label>
+                <br>
                 <input type="text" id="scoreInput">
-                <label for="scoreInput">input your initials</label>
-                <button id="submitScore">submit</button>
+                <br>
+                <button id="submitScore" class="btn">submit</button>
             
         </div>
         <div class="controls">

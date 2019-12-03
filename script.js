@@ -144,10 +144,10 @@ function resetState() {
 function selectAnswer(e) {
     var selectedButton = e.target;
     if (questions[currentQuesitonsIndex].answer == selectedButton.innerText) {
-        alert("correct");
+        document.getElementById("body").style.backgroundColor = "green";
         correctScore.innerText++;
     } else {
-        alert("wrong answer");
+        document.getElementById("body").style.backgroundColor = "red"; 
         wrongScore.innerText++;
     }
 
