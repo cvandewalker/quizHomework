@@ -116,9 +116,12 @@ function startGame() {
 }
 
 function setNextQuestion() {
+    if (currentQuesitonsIndex === questions.length) {
+        return;
+    } else {
     resetState();
     showQuestion(questions[currentQuesitonsIndex]);
-    
+    }
 }
 
 function showQuestion(question) {
@@ -151,10 +154,10 @@ function selectAnswer(e) {
         wrongScore.innerText++;
     }
 
+        currentQuesitonsIndex++;
+        setNextQuestion();
+   }
    
-    currentQuesitonsIndex++;
-    setNextQuestion();
- }   
    
    
 
