@@ -12,3 +12,5 @@ when a question is answered correct, the body turns green and a point is added t
 (I couldnt figure out how to color the background for just 1 second rather than permanently.)
 
 the final score is the equal to the amount of correct answers minus the amount of wrong answers.
+
+site link https://cvandewalker.github.io/quizHomework/
